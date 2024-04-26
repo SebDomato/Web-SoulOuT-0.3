@@ -1,0 +1,24 @@
+header{
+    padding: 60px;
+    text-align:left;
+    
+}
+header div{
+    background-color: rgba(0,0,0, 0.4);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+header img{
+    margin: 10px 10px 10px; /* 0 por arriba - 0 por laterales y 20 para abajo*/
+}
+header h1{
+    font-size: 40px;
+    margin: 0 10px 20px;
+}
+body{
+    background-image: url(../img/mixer2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

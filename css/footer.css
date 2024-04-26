@@ -1,0 +1,33 @@
+.box-footer{
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.4);
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
+.box-footer ul li a{
+    color: white;
+    font-size: 45px;
+    padding: 10px 5px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+.box-footer ul li a:hover{
+    color: #b9b9b9;
+    transform: scale(1.1) rotate(35deg);
+    
+}
+.box-footer ul{
+    list-style: none;
+    
+}
+.box-footer ul li{
+    display: inline-block;
+}
+.box-footer p{
+    color: white;
+    text-align: center;
+}

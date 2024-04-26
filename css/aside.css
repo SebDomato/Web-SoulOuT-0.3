@@ -1,0 +1,22 @@
+aside{
+    flex: 5%; /*ASIGNACION DE LUGAR*/
+    padding: 20px;
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 3.5%;
+}
+.img-soul{
+    padding: 6px;
+    border-radius: 10px;
+}
+aside h2{
+    margin: left 12px;
+}
+aside h3{
+    margin: left 12px;
+}
+aside p{
+    margin: left 12px;
+}
