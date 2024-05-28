@@ -1,0 +1,78 @@
+@import "color.css";
+@import "common.css";
+@import "header.css";
+@import "navbar.css";
+@import "aside.css";
+@import "contenido.css";
+@import "footer.css";
+
+
+@media  screen and (max-width: 700px) { /*PARA QUE QUEDE CENTRADO EN CAMBIO DE PANTALLA*/
+    .navbar, .row, .form{
+        flex-direction: column;
+    }
+    
+}
+body{
+    background-image: url(../img/mixer22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body form{
+    display: flex; /*TRABAJANMOS CON FLEX*/
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0, 0.4);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+    
+}
+body form h1{
+    text-align: center;
+    font-weight: 800;
+}
+body form .grupo{
+    position: relative;
+    margin: 45px;
+}
+body input{
+    background: white;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+body input:focus{
+    outline: none;
+    color: #5e5d5d;
+}
+body label{
+    color: white;
+    font-size: 20px;
+}
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    background: #4568dc;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 800
+}
+body form p{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #B06AB3;
+    padding-top: 20px;
+}

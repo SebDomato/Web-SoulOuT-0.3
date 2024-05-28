@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music API Integration</title>
+</head>
+<body>
+    <div id="music-container"></div>
+
+    <script>
+        const apiKey = 'TU_CLAVE_DE_API';
+        const apiUrl = 'URL_DE_LA_API_DE_MUSICA';
+
+        async function fetchMusic() {
+        try {
+            const response = await fetch(apiUrl, {
+            headers: {
+            'Authorization': `Bearer ${apiKey}`
+            }
+        });
+        const data = await response.json();
+        displayMusic(data);
+        } catch (error) {
+        console.error('Error fetching music:', error);
+        }
+    }
+
+    function displayMusic(musicData) {
+        const musicContainer = document.getElementById('music-container');
+        musicData.tracks.forEach(track => {
+        const trackElement = document.createElement('div');
+        trackElement.innerHTML = `<h3>${track.name}</h3><p>${track.artists.join(', ')}</p>`;
+        musicContainer.appendChild(trackElement);
+        });
+    }
+
+    fetchMusic();
+    </script>
+</body>
+</html>
