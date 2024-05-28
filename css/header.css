@@ -1,11 +1,15 @@
+@media  screen and (max-width: 700px) { /*PARA QUE QUEDE CENTRADO EN CAMBIO DE PANTALLA*/
+    .header, .navbar, .row, .form{
+        flex-direction: column;
+    }
+}
 header{
     padding: 60px;
     text-align:left;
-    
 }
 header div{
     background-color: rgba(0,0,0, 0.4);
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     color: white;
     font-size: 20px;
