@@ -17,3 +17,103 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.flex-contenedor{
+    background: rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-contenedor .caja-c1 h1{
+    
+    margin-top: 40px;
+    color: rgb(32, 207, 26);
+}
+.caja-c1{
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 20px;
+    width: 480px;
+    height: 480px;
+    line-height: 480px;
+    text-align: center;
+    margin: 15px;
+    color: white;
+}
+.caja-c2{
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 20px;
+    width: 480px;
+    height: 480px;
+    line-height: 480px;
+    text-align: center;
+    margin: 15px;
+    color: white;
+}
+.caja-c3{
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 20px;
+    width: 480px;
+    height: 480px;
+    line-height: 480px;
+    text-align: center;
+    margin: 15px;
+    color: white;
+}
+.caja-c4{
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 20px;
+    width: 480px;
+    height: 480px;
+    line-height: 480px;
+    text-align: center;
+    margin: 15px;
+    color: white;
+}
+.caja-c5{
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 20px;
+    width: 480px;
+    height: 480px;
+    line-height: 480px;
+    text-align: center;
+    margin: 15px;
+    color: white;
+}
+.caja-c6{
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 20px;
+    width: 480px;
+    height: 480px;
+    line-height: 480px;
+    text-align: center;
+    margin: 15px;
+    color: white;
+}

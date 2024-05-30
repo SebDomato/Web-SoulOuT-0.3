@@ -37,7 +37,7 @@ body{
     margin-right: 60px;
 }
 .tabla{
-    background-color: cornflowerblue;
+    background-color: rgba(0,0,0, 0.6);
     color: white;
 }
 .tabla thead{

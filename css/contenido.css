@@ -9,7 +9,7 @@
     background-color: rgba(0,0,0, 0.4);
     margin-top: 20px;
     margin-left: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-right: 3.5%;
     
 }
@@ -28,7 +28,7 @@
     text-decoration: none;
     background-color: var(--color-primary);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .main .read-more:hover{
     background-color: var(--color-primary-dark);
